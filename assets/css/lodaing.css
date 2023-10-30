@@ -1,0 +1,7 @@
+.loading{
+    max-width: 1200px;
+    margin: auto;
+    .lodingIcon{
+        border: 1px solid red;
+    }
+}
