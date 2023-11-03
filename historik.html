@@ -3,12 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elpriser Nu</title>
+    <title>Elpriser Nu- Historik</title>
     <link rel="icon" type="image/ico" href="./assets/images/mainIcon.ico">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="manifest" href="./manifest.json">
     <script src="assets/js/el-priser.js" defer></script>
+    <script src="assets/js/navigation.js" defer></script>
 </head>
 <body>
-    <section id="historik"></section>
+    <nav class="mainNav">
+        <img class="logo" src="./assets/images/mainIcon.svg" alt="Logo">
+        <ul class="mainUl">
+            <li class="mainLi active"><a class="mainA active" href="./index.html">Lige Nu</a></li>
+            <li class="mainLi"><a class="mainA" href="./oversigt.html">Oversigt</a></li>
+            <li class="mainLi"><a class="mainA" href="./historik.html">Historik</a></li>
+        </ul>
+    </nav>
+    <section id="historik">
+        <p>HER ER HISTORIK(skrevet i html-filen)</p>
+    </section>
+    <footer>
+        <p>Priserne er <span>ex. moms</span> og afgifter</p>
+        <p>Du vises lige nu priserne for <span>Øst Danmark</span></p>
+    </footer>
 </body>
 </html>

@@ -1,15 +1,64 @@
-@import url('./lodaing.css');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 :root{
     --white: #ebebeb;
-    --grey: #27282b;
+    --grey: #201e1e;
     --black: #201e1e;
     --callToAction: #55ec20;
     --text: 'Roboto', sans-serif;
 }
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    max-width: 768px;
+    height: 100vh;
+    margin: auto;
+    background-color: var(--black);
+}
+/* NAVIGATION */
+.mainNav{
+    padding: 0 20px;
+    padding-top: 5px;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 10% 1fr;
+    gap: 2rem;
+}
+.logo{
+    width: 100%;
+}
+.mainUl{
+    display: flex;
+    gap:1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mainLi{
+    list-style: none;
+}
+.mainA{
+    text-decoration: none;
+    color: var(--white);
+    font-family: var(--text);
+    font-size: 100%;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.mainA:active{
+    color: var(--callToAction);
+}
+/* FOOTER */
+footer{
+    height: 10vh;
+    padding-top: 1.5rem;
+}
+footer p{
+    font-family: var(--text);
+    text-align: center;
+    color: var(--white);
+}
+footer p span{
+    color: var(--callToAction);
 }
