@@ -9,6 +9,15 @@
   "theme_color": "#ffffff",
   "orientation": "portrait-primary",
   "form_factor": "wide",
+  "screenshots": [
+    {
+      "src": "./assets/images/Skærmbillede2023-11-032205.png",
+      "sizes": "409x805",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Homescreen of an Awesome App :)"
+    }
+  ],
   "icons": [
     {
       "src": "./assets/images/windows11/SmallTile.scale-100.png",
